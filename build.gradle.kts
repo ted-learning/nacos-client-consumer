@@ -24,7 +24,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.springframework.cloud:spring-cloud-starter-bootstrap")
-    implementation("org.springframework.cloud:spring-cloud-starter-netflix-ribbon:2.2.10.RELEASE")
+    implementation("org.springframework.cloud:spring-cloud-starter-loadbalancer")
 
     implementation("com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2021.1"){
         exclude("com.alibaba.nacos","nacos-client")
